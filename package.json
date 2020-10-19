@@ -1,0 +1,27 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "@koa/router": "^9.4.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0",
+    "nodemon": "^2.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/register": "^7.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "Topalidis",
+  "license": "ISC"
+}
